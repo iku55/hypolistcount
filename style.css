@@ -59,3 +59,8 @@ button[disabled] {
 input[type="checkbox"] {
     color: yellow
 }
+#data {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+}
