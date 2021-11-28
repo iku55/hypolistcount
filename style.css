@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap');
+
+html, body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: #2D2424;
+    color: #f0f0f0;
+}
+table {
+    border-spacing: 0;
+    margin-left: 30%;
+    width: 40%;
+}
+tr {
+    border-bottom: solid 1px #646464;
+}
+td {
+    font-size: 15px;
+    vertical-align: bottom;
+}
+td:nth-child(2) {
+    font-style: italic;
+    font-size: 25px;
+}
+button {
+    background: transparent;
+    color: #f0f0f0;
+    border: 0;
+    cursor: pointer;
+}
+#panel {
+    margin-left: 29%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #222;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+select {
+    border: none;
+    border-bottom: 2px solid #ddd;
+    background-color: #2D2424;
+    color: #fff;
+}
+button[disabled] {
+    color: #888;
+}
+input[type="checkbox"] {
+    color: yellow
+}
